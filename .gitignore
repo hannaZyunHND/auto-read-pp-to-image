@@ -45,7 +45,7 @@ yarn.lock
 /dist/
 
 # Các tệp chứa thông tin nhạy cảm (tuỳ chọn)
-.env
+
 config.json
 
 # Thư mục sau khi build ứng dụng Node.js (tuỳ chọn)
