@@ -1,0 +1,52 @@
+# Các tệp và thư mục liên quan đến Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pyz
+*.pyw
+*.pyc/
+
+# Virtual environment
+venv/
+env/
+*.env
+
+# Các tệp log và tệp tạm thời
+*.log
+*.swp
+*.tmp
+
+# Các tệp cấu hình và danh sách yêu cầu của Python
+*.ini
+*.cfg
+requirements.txt
+pipfile.lock
+Pipfile.lock
+
+# Node.js và các công cụ tương ứng
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+
+# Các tệp liên quan đến môi trường IDE (tuỳ chọn)
+.vscode/
+.idea/
+
+# Các tệp tạm thời của hệ thống quản lý gói
+*.npm
+*.nvm
+
+# Thư mục đầu ra sau khi xây dựng ứng dụng (tuỳ chọn)
+/build/
+/dist/
+
+# Các tệp chứa thông tin nhạy cảm (tuỳ chọn)
+.env
+config.json
+
+# Thư mục sau khi build ứng dụng Node.js (tuỳ chọn)
+/build/

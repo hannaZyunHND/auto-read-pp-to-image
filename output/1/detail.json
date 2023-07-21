@@ -1,0 +1,37 @@
+{
+  "errorCode": 0,
+  "errorMessage": "",
+  "data": [
+    {
+      "mrz_1": "P<USARICCI<<LAURENELIIZABETH<<<<<<<<<<<<<<<<",
+      "mrz_1_prob": "52.51",
+      "mrz_2": "564760309405M7403264F2706281337879168<104360",
+      "mrz_2_prob": "65.96",
+      "passport_number": "564760309",
+      "passport_number_prob": "65.96",
+      "passport_class": "P",
+      "passport_class_prob": "77.51",
+      "name": "RICCI LAURENELIIZABETH",
+      "name_prob": "52.51",
+      "dob": "26/03/1974",
+      "dob_prob": "65.96",
+      "nationality": "ARMENIA",
+      "nationality_prob": "65.96",
+      "country_code": "05M",
+      "sex": "FEMALE/F",
+      "sex_prob": "65.96",
+      "id_number": "337879168 1043",
+      "id_number_prob": "65.96",
+      "doe": "28/06/2027",
+      "doe_prob": "65.96",
+      "poi": "N/A",
+      "poi_prob": "N/A",
+      "doi": "N/A",
+      "doi_prob": "N/A",
+      "pob": "N/A",
+      "pob_prob": "N/A",
+      "overall_score": "52.51",
+      "type": "foreign"
+    }
+  ]
+}
