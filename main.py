@@ -15,7 +15,9 @@ def generate_output_string(data, dir_out):
                 sex = data_list[0].get('sex','').split('/')[0]
                 national = data_list[0].get('nationality', '');
                 birthYear = data_list[0].get('dob', '').split('/')[2] or "1980";
-                age = current_year - int(birthYear)
+                age = current_year - int(birthYear);
+                if(age > 40 and age < 50) : age = age - 10
+                if(age > 50) : age = age - 15
                 output_string = f"a {national} {sex}, age {age} with travel-appropriate attire. The photo is in slightly brighter tone and shows an eye view of the subject in a half-body shot, standing on the floors of an airport with a blurred background. --ar 2:3 --v 5";
                 # Định nghĩa URL của API POST
                 url = 'http://localhost:3000/imagine'

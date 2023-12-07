@@ -11,7 +11,7 @@ async function processInput(inputString) {
   });
   await client.init();
   await client.Connect(); // required
-
+  console.log(client);
   const Imagine = await client.Imagine(inputString, (uri, progress) => {
     console.log("loading", uri, "progress", progress);
   });
